@@ -7,6 +7,12 @@
     src: url(./NanumGothic-Regular.ttf);
   }
 
+  @font-face{
+      font-family: questrial;
+      src: url(./Questrial-Regular.ttf);
+  }
+  @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1&display=swap');
+
 body{
     height: 100%;
     margin: 0px;
@@ -52,4 +58,179 @@ a:hover{
     margin-left: 15%;
     margin-top: 130px;
     font-family: barlow;
+} 
+
+.boy-photo{
+    position: relative;
+    height: 450px;
+    margin: 150px;
+    transform: translateX(65px);
+    z-index: 0;
 }
+
+.obj{
+    position: absolute;
+    border: 1px solid white;
+    width: 430px;
+    height: 300px;
+    background-color: white;
+    right: 110px;
+    top: 45%;
+    z-index: 6;
+    padding: 70px;
+}
+.leaderInInteractiveDiv{
+    position: relative;
+    
+}
+
+.title-text{
+    text-transform: uppercase;
+    font-family: barlow; 
+    font-size: 42px;
+    margin-bottom: 38px;
+    margin-top: 0;
+    
+}
+
+.content-text{
+    color: gray;
+    font-family: questrial;
+    font-size: 15px;
+    
+}
+
+.seeAll{
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding:0 15%;
+    margin-bottom: 25px;
+
+}
+
+
+.creations{
+    font-family: barlow;
+    
+    
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.click{
+    
+    width: 110px;
+    height: 30px;
+    text-transform: uppercase;
+    font-family: 'M PLUS 1', sans-serif;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    border-radius: 5px;
+    position: absolute;
+    right: calc(15% - 53px);
+}
+
+
+.click:hover{
+    
+    background-color: black;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding: 0 15%;
+    
+    
+}
+
+.item{
+    padding: 20px;
+    width: 240px;
+}
+
+
+.ourCreation{
+    position: relative;
+    width: 22%;
+    
+    margin-left: 29px;
+
+}
+.creationHeader{
+    position: absolute;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    bottom: 5px;
+    font-weight: 100;
+    width: 50px;
+    font-family: barlow;
+    left: 50px;
+}
+
+/** Footer**/
+
+.footer{
+    width: 100%;
+    height: 200px;
+    background-image: url(./images/desktop/back-ground-footer.jpg);
+    margin-top: 180px;
+    
+}
+
+.footer_logo{
+    padding: 60px 15%;
+}
+
+.footer-menu{
+    text-align: left;
+    margin-top: 25px;
+    font-weight: 500;
+   
+    
+}
+.footer_logo a{
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.footerNav {
+    margin: 0 10px;
+}
+
+.footerAbout {
+    margin-right: 10px;
+}
+
+.icon{
+    text-align: right;
+    transform: translateY(-80px)
+}
+
+.footerIcon{
+    margin: 0 10px;
+}
+
+.Loopstudios{
+    position: absolute;
+
+    font-family: nanum;
+    color: rgba(255, 255, 255, 0.432);
+    transform: translateX(815px);
+    margin-top: 30px;
+    text-align: left;
+    font-weight: 500;
+
+    
+    
+
+}
+
