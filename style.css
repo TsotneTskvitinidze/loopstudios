@@ -160,10 +160,17 @@ a:hover{
 .ourCreation{
     position: relative;
     width: 22%;
-    
     margin-left: 13px;
     margin-right: 13px;
 }
+.ourCreation:hover .item{
+    opacity: 0.5;
+}
+.ourCreation:hover .creationHeader{
+    color: #000;
+    
+}
+
 .creationHeader{
     position: absolute;
     font-size: 25px;
@@ -237,5 +244,19 @@ a.author {
     color: rgba(255, 255, 255, 0.432);
     text-decoration: none;
     
+    
 }
 
+ 
+@media only screen and (max-width: 600px) {
+    .main-banner{
+        background-image: url(./images/mobile/image-hero.jpg);
+       
+
+    }
+
+
+
+
+
+}
